@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+	<head lang="es">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Encriptador | Oracle+AluraLatam</title>
+		<link rel="stylesheet" href="./css/style.css">
+	</head>
+
+	<body>
+		<div class="img-header">		
+			<div class="logo">
+				<img id="logo-vector" src="./images/vector.svg" alt="Logo de Alura">
+			</div>
+		</div>			
+		
+		<textarea id="textinput" class="text-input" placeholder="Ingrese el texto aquí" required></textarea>
+
+		<div class="panel-warning">
+			<div class="panel-warning-icon">
+				<img src="./images/icon-exclamation.svg" class="panel-warning-vector" alt="Imagen signo de exclamación">
+			</div>
+			<p>
+				Solo letras minúsculas y sin acentos
+			</p>
+		</div>
+
+		<div class="panel-button">
+			<button class="panel-button-encriptar" id="btn-encriptar">
+				<span>Encriptar</span>
+			</button>
+			<button class="panel-button-desencriptar" id="btn-desencriptar">
+				<span>Desencriptar</span>
+			</button>
+		</div>
+
+		<div class="text-output">
+			<div id="first-state">
+				<img src="./images/muñeco.svg" class="text-output-img-result">
+				<div class="text-output-no-encontrado">
+					<span id="span-mensaje-no-encontrado">Ningún mensaje fue encontrado</span>
+					<span id="span-ingrese-texto">Ingresa el texto que desees encriptar o desencriptar.</span>
+				</div>
+			</div>
+			<div id="second-state">
+				<textarea id="text-result" class="text-output-result" disabled="true"></textarea>
+				<div class="btn-copiar">
+					<button id="btn-copiar">
+						¡Copiar!
+					</button>	
+				</div>
+			</div>
+		</div>
+
+	<footer>
+		Pagina web desarrollada por Francisco Delahaye 2023
+		<a href="https://github.com/frandev91"><img class="footer-img" src="./images/github-logo.svg" alt="Logo de Github con mi link"></a>
+	</footer>
+
+	<script src="./script/script.js"></script>
+	
+	</body>
+</html>
