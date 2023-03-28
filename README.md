@@ -1,6 +1,10 @@
 <h1 align="center">Encriptador de texto</h1>
 <h3 align="center">Programa web desarrollado para Alura Latam, como parte del programa ONE</h3>
 
+<p align="center">
+  <a href="https://imgbox.com/MpI1CWiA" target="_blank"><img src="https://images2.imgbox.com/53/0a/MpI1CWiA_o.jpg" alt="App Image"/></a>
+</p>
+
 ## Introducción
 Vamos a trabajar en una aplicación que encripta textos, así podrás intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
 
